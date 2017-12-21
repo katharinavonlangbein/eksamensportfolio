@@ -1,0 +1,404 @@
+
+	
+body {
+	
+margin: 0;
+	
+padding: 0;
+	
+border: 0;
+	
+background: #FFFFFF;
+	
+font-family: 'Poiret One', cursive;
+	
+color: #313131;
+	
+font-size: medium;
+	
+}
+
+/* navigation bar */
+	
+#nav {
+display: block;
+		
+width: 100%;
+		
+background: #FFFFFF;
+	
+padding: 0px;
+
+text-align: center;
+	
+/* for the "tabbed" impression :-) */
+
+	
+}
+
+.nav1 {	
+width: 100%;
+	
+background: #FFFFFF;
+	
+padding: 0px;
+
+margin-bottom: 0;
+margin-top: 0;
+
+text-align: center;
+}
+	
+#nav a {
+	
+display: inline-block;
+	
+font-family: 'Poiret One', cursive;
+	
+font-size: 1em;
+	
+font-weight: bold;
+	
+color: black;
+	
+text-decoration: none;
+	
+padding: 10px 22px;
+		
+}
+
+#nav li {
+
+display: inline-block;
+	
+}
+	
+#nav a:hover {
+	
+background: #FEBAF3;
+color: white;
+	
+}
+	
+.image {
+	 height: 70%;
+	width: 100%;
+	margin-top: -31px;
+	left: 0;
+	position: absolute;
+	
+}
+
+
+.brodtekst {
+    
+    width: 80%;
+    font-family: 'Poiret One', cursive;
+	margin-top: -18px;
+	line-height: 22px;
+
+}
+
+.underrubik h3{
+	font-family: 'Poiret One', cursive;
+	margin-top: -30px;
+	line-height: 22px;
+
+}
+#headline {
+	width: 100%;
+}
+
+h2{
+	
+	margin-top: 22px;
+    font-size: 2.5em;
+
+	
+}
+.overskrifter{
+	padding-left: 10%;
+}
+.overskrift h2{
+	font-size: 40px;
+	font-family: 'League Script', cursive;
+	
+}
+
+.alltext {
+	width: 50%;
+	
+}
+
+.ommigbillede {
+    height: 30%;
+	width: 40%;
+	margin-left: 150px;
+	
+}
+.altommig{
+	display: flex;
+	justify-content: space-around;
+}
+.cv{
+	text-decoration: none;
+	color: black;
+}
+
+.allebokse {
+	margin: 0 auto;
+	height: 500px;
+	width: 100%;
+	
+	
+}
+.boxbilled, .boxbilled1{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: 0 10% 0 10%;
+}
+
+
+#boks1, #boks2, #boks3, #boks4 {
+	background-color: #FEBAF3;
+	height: 270px;
+	width: 40%;
+	margin-bottom: 10px;
+
+}
+.billede1 {
+    height: auto;
+	width: 100%;
+	background-color: #FEBAF3;
+
+}
+
+.billede1:hover {
+	opacity: 0.6;
+}
+
+.billede2 {
+	height: auto;
+	width: 100%;
+	background-color: #FEBAF3;
+
+}
+
+.billede2:hover {
+	opacity: 0.6;
+}
+
+
+.billede3 {
+	height: auto;
+	width: 100%;
+	background-color: #FEBAF3;
+}
+
+.billede3:hover {
+	opacity: 0.6;
+}
+
+
+.billede4 {
+    height: auto;
+	width: 100%;
+	background-color: #FEBAF3;
+ 
+}
+
+.billede4:hover {
+	opacity: 0.6;
+}
+
+
+.text {
+	width: 65%;
+    font-family: 'Poiret One', cursive;
+	display:flex;
+	margin-top: 50px;
+}
+
+
+.projekttx{
+	margin-left: 10%;
+}
+
+.ikon {
+	height: 10%;
+	width: 10%;
+}
+
+.pil {
+	height: 5%;
+	width: 5%;
+}
+
+.projektinfo{
+	display: flex;
+	flex-wrap: wrap;
+}
+.knapper
+{
+	width: 10%;
+}
+
+.virksomhedbillede {
+	height: auto;
+	width: 30%;
+	background-color: #FEBAF3;
+}
+
+.virksomhedbillede:hover {
+	opacity: 0.6;
+}
+
+.virksomhedbillede1 {
+	height:auto;
+	width:40%;
+	margin: 0 30%;
+}
+.brodtekst2{
+	width: 70%;
+	margin: 15px 10%;
+	line-height: 25px;
+}
+
+.designbillede {
+	height: auto;
+	width: 30%;
+	background-color: #FEBAF3;
+	
+	
+}
+
+.designbillede:hover {
+	opacity: 0.6;
+}
+
+.designbillede1 {
+	height:auto;
+	width:40%;
+	margin: 0 30%;
+}
+
+.p {
+	height:auto;
+	width:40%;
+	margin: 0 30%;
+}
+
+
+.kodning {
+	height: auto;
+	width: 30%;
+	background-color: #FEBAF3;
+}
+
+.kodning:hover {
+	opacity: 0.6;
+}
+
+.kodning1 {
+	height:auto;
+	width:40%;
+	margin: 0 30%;
+}
+
+.projektbillede1 {
+	height: auto;
+	width: 55%;
+}
+
+.projektbillede {
+	height: auto;
+	width: 55%;
+	margin-left: 15%;
+}
+
+.projektbilledebygdinportfolio {
+	height: auto;
+	width: 55%;
+	margin-left: 15%;
+}
+
+.projektbilledeapp {
+	height: auto;
+	width: 55%;
+	margin-left: 15%;
+}
+
+.projektbilledesweetbot {
+	height: auto;
+	width: 55%;
+	margin-left: 15%;
+}
+
+
+.brodtekst1 {
+	width: 80%;
+    font-family: 'Poiret One', cursive;
+	margin-top: -18px;
+	margin-left: 123px;
+	line-height: 25px
+}
+
+#boxbillede {
+	display: flex;
+	margin: 0 10%;
+	justify-content: space-between;
+	width: 80%;
+	
+}
+
+.img4{
+	 width: 100%;}
+
+.projektbilleder {
+	background-color:#FEBAF3;
+	width: 40%;
+	height: 246px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.push{
+	margin: 0 2%;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 10%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000000;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #FEBAF3;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+	width:50%;
+	margin-left: 25%;
+} 
+
